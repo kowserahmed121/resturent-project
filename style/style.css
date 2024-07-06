@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+#hero {
+  color: rgb(255, 255, 255);
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      0deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url(../assets/hero-bg.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sub-title {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  opacity: 0.6;
+}
+
+.hero-container h3 {
+  color: rgb(255, 255, 255);
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0%;
+}
+
+.hero-container .hero-p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  opacity: 0.6;
+}
+
+.btn {
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  padding: 14px 22px 14px 22px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+}
+
+/* card section code here */
+.card {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.card-container p {
+  color: rgb(16, 16, 16);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+}
+
+.card-container h3 {
+  color: rgb(16, 16, 16);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.card-menu {
+  width: 320px;
+}
+
+.card-menu img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.flex-img {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.bg-btn {
+  display: inline;
+  border-radius: 8px;
+  padding: 10px 22px 10px 22px;
+  background: rgba(82, 195, 3, 0.15);
+  font-weight: 600;
+}
+
+.card-menu h5 {
+  margin-top: 30px;
+  font-size: 30px;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card-menu .card-para {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* flex side code here  */
+.flex-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  margin-top: 70px;
+}
+
+.flex-img-side img {
+  width: 600px;
+  background-size: cover;
+}
+
+.flex-content-side{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.flex-content-side h3{
+  color: rgb(16, 16, 16);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 54px;
+}
+
+
+.flex-content-side h5{
+  color: rgb(16, 16, 16);
+font-size: 22px;
+font-weight: 600;
+line-height: 38px;
+}
+
+.icon-div i{
+  margin-right: 15px;
+  font-size: 28px;
+}
+
+/* footer seciton design  */
+.footer-section{
+    color: rgb(255, 255, 255);
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background: 
+      url(../assets/social-bg.png), lightgray 70% /cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    background-blend-mode: overlay;
+    gap: 20px;
+    color: rgb(16, 16, 16);
+}
+
+.footer-section h3{
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+text-align: center;
+}
+
+.footer-section p{
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+margin-bottom: 30px;
+}
+
+.footer-section h5{
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+margin-bottom: 20px;
+}
+
+.text-area{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.text-area p{
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
